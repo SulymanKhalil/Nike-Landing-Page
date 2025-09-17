@@ -1,0 +1,145 @@
+@media (max-width: 1100px) {
+    .nav img {
+        margin-right: 60px;
+        height: 65px;
+    }
+
+    .nav-part-1 ul li,
+    .content-left h5,
+    .content-left p,
+    .product h4 {
+        font-size: 15px;
+    }
+
+    .content-left h1 {
+        font-size: 38px;
+    }
+
+    .content-left {
+        padding: 20px 0 0 70px;
+    }
+
+    .product {
+        height: 300px;
+        width: 200px;
+    }
+
+    .product img {
+        height: 200px;
+    }
+
+    .content-right {
+        padding-top: 30px;
+    }
+
+    .category,
+    .color,
+    .price {
+        font-size: 13px;
+    }
+
+    .nav-part-2 i {
+        font-size: 17px;
+    }
+
+    .product .terminator-shoes {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-part-1 ul li {
+        margin-right: 25px;
+
+    }
+
+    .nav-part-2 i {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .nav img {
+        margin-right: 45px;
+        height: 58px;
+    }
+
+    .content-left {
+        padding: 20px 0 0 50px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .main {
+        height: 100%;
+    }
+
+    .nav {
+        height: 70px;
+        padding: 0 30px;
+    }
+
+    .nav-part-2 .ri-shopping-cart-line,
+    .ri-search-line {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .content-left {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        display: block;
+        text-align: center;
+        padding: 10px 0 45px 0;
+    }
+
+    .content-right {
+        height: 120%;
+        width: 100%;
+        padding: 0;
+        white-space: normal;
+        overflow-x: visible;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content-left p {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .product {
+        height: 370px;
+        width: 250px;
+        background-color: #1011;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: block;
+        margin: 0;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        margin-bottom: 35px;
+        margin-inline: 20px;
+    }
+
+    .product img {
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 660px){
+    .nav-part-1 ul li {
+        display: none;
+    }
+}
